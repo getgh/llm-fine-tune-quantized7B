@@ -1,0 +1,43 @@
+=== EdgeProfiler Hardware Configuration Collection ===
+Generated on: Sat Nov 15 07:26:31 PM EST 2025
+
+=== 1. Peak FLOPs Estimation ===
+CPU Model: 13th Gen Intel(R) Core(TM) i5-1334U
+CPU Cores: 12
+Max Frequency: 4600.0000 MHz
+Estimated Peak FLOPs: 4.416e11 FLOPs/sec
+
+=== 2. Memory Bandwidth ===
+STREAM benchmark not found.
+Memory Type: None
+Memory Speed: 5600 MT/s
+Estimated Memory Bandwidth: 8.96e10 manual calculation required
+
+=== 3. Storage Bandwidth ===
+Testing storage device: /dev/sda
+Storage Bandwidth: 102 MB/s (converted to 1.02e8 bytes/s)
+
+=== 4. Host-to-Device Bandwidth (PCIe) ===
+Accelerator detected:
+00:08.0 System peripheral: Intel Corporation GNA Scoring Accelerator module (rev 01)
+PCIe Info: 		LnkCap:	Port #5, Speed 16GT/s, Width x4, ASPM not supported
+Host-to-Device Bandwidth: 8.96e10 bytes/s (using memory bandwidth)
+
+=== 5. Network Bandwidth ===
+Network Interface: wlp3s0
+Network Speed: 1e8 bytes/s (100 Mbps estimated)
+
+=== Python HardwareConfig Code ===
+from EdgeProfiler import HardwareConfig
+
+hw = HardwareConfig(
+    name='My Isolated System',
+    peak_flops=4.416e11,
+    memory_bandwidth=8.96e10,
+    storage_bandwidth=1.02e8,  # 102 MB/s converted to bytes/s
+    host_to_device_bw=8.96e10,  # Using memory bandwidth as specified
+    network_bandwidth=1e8,
+    compute_util=0.7,
+    memory_util=0.6
+)
+

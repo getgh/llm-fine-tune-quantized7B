@@ -1,0 +1,5 @@
+unsloth for finetune
+dataset for XSS
+LoRA adapter / Low-Rank Adapter: a technique for fine-tuning large machine learning models, like LLMs, by adding small, trainable matrices to a few layers of the pre-trained model while keeping the original weights frozen
+SFTTrainer for training
+Google colab: For doing the hardwork

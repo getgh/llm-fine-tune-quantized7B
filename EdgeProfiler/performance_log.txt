@@ -1,0 +1,71 @@
+
+Prompt: Hello
+Token Count: 10
+Response:
+Performance Stats:
+
+-----------------------------
+
+Prompt: Once upon a time
+Token Count: 20
+Response:
+Performance Stats:
+
+-----------------------------
+
+Prompt: The weather today
+Token Count: 30
+Response:
+Performance Stats:
+
+-----------------------------
+
+Prompt: A cat sat
+Token Count: 40
+Response:
+Performance Stats:
+
+-----------------------------
+
+Prompt: In a galaxy far
+Token Count: 50
+Response:
+Performance Stats:
+
+-----------------------------
+
+Prompt: Deep in the forest
+Token Count: 60
+Response:
+Performance Stats:
+
+-----------------------------
+
+Prompt: The meaning of life
+Token Count: 70
+Response:
+Performance Stats:
+
+-----------------------------
+
+Prompt: Under the ocean
+Token Count: 80
+Response:
+Performance Stats:
+
+-----------------------------
+
+Prompt: On a sunny day
+Token Count: 90
+Response:
+Performance Stats:
+
+-----------------------------
+
+Prompt: At the library
+Token Count: 100
+Response:
+Performance Stats:
+
+-----------------------------
+

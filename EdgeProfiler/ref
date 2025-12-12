@@ -1,0 +1,24 @@
+https://www.wired.com/story/apple-google-microsoft-zero-days-september-2023/
+https://github.com/google/oss-fuzz
+https://huggingface.co/DeepHat/DeepHat-V1-7B
+https://huggingface.co/datasets/icantiemyshoe/cve-to-metasploit-module
+https://docs.unsloth.ai/
+https://arxiv.org/pdf/2106.09685
+https://arxiv.org/html/2506.09061v3
+https://www.docker.com/blog/open-webui-docker-desktop-model-runner/
+https://docs.openwebui.com/getting-started/quick-start/starting-with-ollama/
+https://ollama.com/getgh
+
+
+Data Preprocessing Pipeline        
+ 1. Load Data                            
+ 2. Impute Missing Values (1e+99)        
+ 3. Normalize/Standardize Features 
+
+  k-NN Classification Algorithm          
+ ├─ Calculate Euclidean Distance         
+ ├─ Find k Nearest Neighbors             
+ └─ Vote for Majority Class
+
+         Output Predictions              
+  └─ predictions#.txt (One per line) 
